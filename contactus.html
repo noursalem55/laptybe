@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: #efefef;
+
+        }
+
+        .contact-box {
+            width: 500px;
+            background-color: #fff;
+            box-shadow: 0 0 20px 0 #999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        form {
+            margin: 80px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: -10px;
+        }
+
+        .input-field {
+            width: 300px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            border: 1 px solid #777;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .textarea-field {
+            height: 150px;
+            padding-top: 10px;
+        }
+
+        label {
+            color: rgb(221, 92, 92);
+            font-size: large;
+        }
+
+        .btn {
+            border-radius: 10px;
+            color: #fff;
+            margin-top: 18px;
+            margin-left: 110px;
+            padding: 20px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #efefef;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-box">
+        <h1 class="title">contact us </h1>
+        <form action="">
+            <label for=""> Name</label>
+            <input type="text" class="input-field" name="Name" placeholder="Enter your name" required>
+            <label for=""> Email</label>
+            <input type="email" name="email" class="input-field" required>
+            <label for=""> Address</label>
+            <input type="text" name="Address" class="input-field ">
+            <label for=""> share your ideas</label>
+            <textarea type="text" cols="30" rows="10" class="input-field textarea-field"
+                placeholder="your message"></textarea>
+            <button class="btn"><a
+                    href="mailto:abc@xyz.com?cc=xzy@a.a&bcc=asd@asd.a&subject=Annual Plan&body=asdfghjkwwertyuixcvbn">Send
+                    Mail</a></button>
+
+        </form>
+    </div>
+</body>
+
+</html>

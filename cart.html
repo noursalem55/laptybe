@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* cart items*/
+
+        .cart-page {
+            margin: 80px auto;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+        }
+
+        .cart-info {
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        th {
+            text-align: left;
+            padding: 5px;
+            color: aquamarine;
+            background: #ff523b;
+            font-weight: normal;
+        }
+
+        td {
+            padding: 10px 5px;
+        }
+
+        td input {
+            width: 40px;
+            height: 30px;
+            padding: 5px;
+        }
+
+        td a {
+            color: #a81a1a;
+            font-size: 12px;
+            padding: 10px;
+
+
+        }
+
+        td image {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+
+        .total {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        button {
+            padding: 20px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-left: 700px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>name</th>
+                <th>checkout</th>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="products/1.jpg">
+                        <div>
+                            <p>hp laptop</p>
+                            <small> price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+
+                        </div>
+                    </div>
+
+                </td>
+
+                <td><input type="number" value="1"></td>
+                <td>50.00$</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="products/2.jpg">
+                        <div>
+                            <p>hp laptop</p>
+                            <small> price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+
+                        </div>
+                    </div>
+
+                </td>
+
+                <td><input type="number" value="1"></td>
+                <td>50.00$</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="products/3.jpg">
+                        <div>
+                            <p>hp laptop</p>
+                            <small> price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+
+                        </div>
+                    </div>
+
+                </td>
+
+                <td><input type="number" value="1"></td>
+                <td>50.00$</td>
+
+            </tr>
+        </table>
+        <div class="total">
+            <tr>
+                <td>total</td>
+                <td>200.0$l</td>
+            </tr>
+            <br>
+            <tr>
+                <td>discount</td>
+                <td>20$</td>
+            </tr>
+        </div>
+        <button>checkout</button>
+    </div>
+</body>
+
+</html>
